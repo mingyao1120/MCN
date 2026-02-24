@@ -182,7 +182,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-  **For questions and feedback, please open an issue or contact [Your Email]**
+  **For questions and feedback, please open an issue or contact zhoumingyao@whu.edu.cn**
 
   ⭐ If you find this repository helpful, please consider giving it a star!
 
