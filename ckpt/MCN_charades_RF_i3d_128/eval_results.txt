@@ -1,0 +1,567 @@
+Sorted model files: [(31040, 'ckpt/MCN_charades_RF_i3d_128/2000/1.0/MCN_31040.t7'), (38800, 'ckpt/MCN_charades_RF_i3d_128/2000/1.0/MCN_38800.t7'), (40352, 'ckpt/MCN_charades_RF_i3d_128/2000/1.0/MCN_40352.t7'), (52768, 'ckpt/MCN_charades_RF_i3d_128/2000/1.0/MCN_52768.t7'), (65184, 'ckpt/MCN_charades_RF_i3d_128/2000/1.0/MCN_65184.t7')]
+
+==================================================
+Evaluating model: MCN_31040.t7
+==================================================
+evaluate test: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 233/233 [00:03<00:00, 76.20it/s]
+模型评估完成，耗时: 3.06 秒
+
+Model: MCN_31040.t7
+Rank@1, IoU_ans=0.3:    69.57
+Rank@1, IoU_ans=0.5:    63.09
+Rank@1, IoU_ans=0.7:    56.08
+mean IoU_ans   :        61.43
+acc:    76.99
+
+==================================================
+Evaluating model: MCN_38800.t7
+==================================================
+evaluate test: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 233/233 [00:02<00:00, 80.68it/s]
+模型评估完成，耗时: 2.89 秒
+
+Model: MCN_38800.t7
+Rank@1, IoU_ans=0.3:    70.11
+Rank@1, IoU_ans=0.5:    64.35
+Rank@1, IoU_ans=0.7:    57.47
+mean IoU_ans   :        62.32
+acc:    76.51
+
+==================================================
+Evaluating model: MCN_40352.t7
+==================================================
+evaluate test: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 233/233 [00:02<00:00, 80.89it/s]
+模型评估完成，耗时: 2.89 秒
+
+Model: MCN_40352.t7
+Rank@1, IoU_ans=0.3:    70.27
+Rank@1, IoU_ans=0.5:    63.58
+Rank@1, IoU_ans=0.7:    56.53
+mean IoU_ans   :        62.10
+acc:    77.20
+
+==================================================
+Evaluating model: MCN_52768.t7
+==================================================
+evaluate test: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 233/233 [00:02<00:00, 80.95it/s]
+模型评估完成，耗时: 2.89 秒
+
+Model: MCN_52768.t7
+Rank@1, IoU_ans=0.3:    69.46
+Rank@1, IoU_ans=0.5:    64.73
+Rank@1, IoU_ans=0.7:    58.20
+mean IoU_ans   :        62.35
+acc:    74.92
+
+==================================================
+Evaluating model: MCN_65184.t7
+==================================================
+evaluate test: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 233/233 [00:02<00:00, 81.00it/s]
+模型评估完成，耗时: 2.88 秒
+
+Model: MCN_65184.t7
+Rank@1, IoU_ans=0.3:    69.46
+Rank@1, IoU_ans=0.5:    65.05
+Rank@1, IoU_ans=0.7:    58.09
+mean IoU_ans   :        62.47
+acc:    75.30
+
+Epoch 1, Step 776:
+Rank@1, IoU_ans=0.3: 48.82	Rank@1, IoU_ans=0.5: 48.47	Rank@1, IoU_ans=0.7: 48.47	mean IoU_ans: 48.87
+Noanswer Accuracy Rate: 96.94
+Hasanswer Accuracy Rate: 3.49
+ACC Rate: 50.22
+Epoch 2, Step 1552:
+Rank@1, IoU_ans=0.3: 48.23	Rank@1, IoU_ans=0.5: 44.95	Rank@1, IoU_ans=0.7: 43.55	mean IoU_ans: 46.55
+Noanswer Accuracy Rate: 82.96
+Hasanswer Accuracy Rate: 25.59
+ACC Rate: 54.27
+Epoch 3, Step 2328:
+Rank@1, IoU_ans=0.3: 51.37	Rank@1, IoU_ans=0.5: 48.58	Rank@1, IoU_ans=0.7: 47.74	mean IoU_ans: 49.46
+Noanswer Accuracy Rate: 90.00
+Hasanswer Accuracy Rate: 18.76
+ACC Rate: 54.38
+Epoch 4, Step 3104:
+Rank@1, IoU_ans=0.3: 55.32	Rank@1, IoU_ans=0.5: 48.79	Rank@1, IoU_ans=0.7: 45.67	mean IoU_ans: 50.60
+Noanswer Accuracy Rate: 78.98
+Hasanswer Accuracy Rate: 46.99
+ACC Rate: 62.98
+Epoch 5, Step 3880:
+Rank@1, IoU_ans=0.3: 55.97	Rank@1, IoU_ans=0.5: 46.91	Rank@1, IoU_ans=0.7: 41.08	mean IoU_ans: 48.81
+Noanswer Accuracy Rate: 63.66
+Hasanswer Accuracy Rate: 72.37
+ACC Rate: 68.01
+Epoch 6, Step 4656:
+Rank@1, IoU_ans=0.3: 59.46	Rank@1, IoU_ans=0.5: 50.94	Rank@1, IoU_ans=0.7: 44.70	mean IoU_ans: 51.82
+Noanswer Accuracy Rate: 68.39
+Hasanswer Accuracy Rate: 71.88
+ACC Rate: 70.13
+Epoch 7, Step 5432:
+Rank@1, IoU_ans=0.3: 61.08	Rank@1, IoU_ans=0.5: 53.76	Rank@1, IoU_ans=0.7: 47.34	mean IoU_ans: 53.82
+Noanswer Accuracy Rate: 72.80
+Hasanswer Accuracy Rate: 67.96
+ACC Rate: 70.38
+Epoch 8, Step 6208:
+Rank@1, IoU_ans=0.3: 61.75	Rank@1, IoU_ans=0.5: 54.35	Rank@1, IoU_ans=0.7: 47.12	mean IoU_ans: 54.05
+Noanswer Accuracy Rate: 72.04
+Hasanswer Accuracy Rate: 70.16
+ACC Rate: 71.10
+Epoch 9, Step 6984:
+Rank@1, IoU_ans=0.3: 62.69	Rank@1, IoU_ans=0.5: 54.49	Rank@1, IoU_ans=0.7: 47.69	mean IoU_ans: 54.93
+Noanswer Accuracy Rate: 74.41
+Hasanswer Accuracy Rate: 69.19
+ACC Rate: 71.80
+Epoch 10, Step 7760:
+Rank@1, IoU_ans=0.3: 61.02	Rank@1, IoU_ans=0.5: 52.18	Rank@1, IoU_ans=0.7: 45.48	mean IoU_ans: 53.04
+Noanswer Accuracy Rate: 67.96
+Hasanswer Accuracy Rate: 75.91
+ACC Rate: 71.94
+Epoch 11, Step 8536:
+Rank@1, IoU_ans=0.3: 64.35	Rank@1, IoU_ans=0.5: 55.83	Rank@1, IoU_ans=0.7: 49.14	mean IoU_ans: 56.11
+Noanswer Accuracy Rate: 74.52
+Hasanswer Accuracy Rate: 71.99
+ACC Rate: 73.25
+Epoch 12, Step 9312:
+Rank@1, IoU_ans=0.3: 64.54	Rank@1, IoU_ans=0.5: 56.32	Rank@1, IoU_ans=0.7: 49.52	mean IoU_ans: 56.10
+Noanswer Accuracy Rate: 72.53
+Hasanswer Accuracy Rate: 75.81
+ACC Rate: 74.17
+Epoch 13, Step 10088:
+Rank@1, IoU_ans=0.3: 65.67	Rank@1, IoU_ans=0.5: 58.87	Rank@1, IoU_ans=0.7: 52.23	mean IoU_ans: 58.02
+Noanswer Accuracy Rate: 79.68
+Hasanswer Accuracy Rate: 66.77
+ACC Rate: 73.23
+Epoch 14, Step 10864:
+Rank@1, IoU_ans=0.3: 65.30	Rank@1, IoU_ans=0.5: 59.87	Rank@1, IoU_ans=0.7: 53.49	mean IoU_ans: 58.59
+Noanswer Accuracy Rate: 82.47
+Hasanswer Accuracy Rate: 63.01
+ACC Rate: 72.74
+Epoch 15, Step 11640:
+Rank@1, IoU_ans=0.3: 66.94	Rank@1, IoU_ans=0.5: 59.01	Rank@1, IoU_ans=0.7: 50.91	mean IoU_ans: 58.09
+Noanswer Accuracy Rate: 75.38
+Hasanswer Accuracy Rate: 75.16
+ACC Rate: 75.27
+Epoch 16, Step 12416:
+Rank@1, IoU_ans=0.3: 64.78	Rank@1, IoU_ans=0.5: 56.59	Rank@1, IoU_ans=0.7: 48.98	mean IoU_ans: 55.96
+Noanswer Accuracy Rate: 69.35
+Hasanswer Accuracy Rate: 78.49
+ACC Rate: 73.92
+Epoch 17, Step 13192:
+Rank@1, IoU_ans=0.3: 65.40	Rank@1, IoU_ans=0.5: 58.60	Rank@1, IoU_ans=0.7: 51.37	mean IoU_ans: 57.35
+Noanswer Accuracy Rate: 75.86
+Hasanswer Accuracy Rate: 71.99
+ACC Rate: 73.92
+Epoch 18, Step 13968:
+Rank@1, IoU_ans=0.3: 65.70	Rank@1, IoU_ans=0.5: 57.28	Rank@1, IoU_ans=0.7: 50.43	mean IoU_ans: 57.32
+Noanswer Accuracy Rate: 74.89
+Hasanswer Accuracy Rate: 74.68
+ACC Rate: 74.78
+Epoch 19, Step 14744:
+Rank@1, IoU_ans=0.3: 66.69	Rank@1, IoU_ans=0.5: 59.27	Rank@1, IoU_ans=0.7: 51.18	mean IoU_ans: 58.00
+Noanswer Accuracy Rate: 75.05
+Hasanswer Accuracy Rate: 74.95
+ACC Rate: 75.00
+Epoch 20, Step 15520:
+Rank@1, IoU_ans=0.3: 67.42	Rank@1, IoU_ans=0.5: 60.89	Rank@1, IoU_ans=0.7: 54.38	mean IoU_ans: 59.62
+Noanswer Accuracy Rate: 81.13
+Hasanswer Accuracy Rate: 68.76
+ACC Rate: 74.95
+Epoch 21, Step 16296:
+Rank@1, IoU_ans=0.3: 67.18	Rank@1, IoU_ans=0.5: 59.62	Rank@1, IoU_ans=0.7: 51.99	mean IoU_ans: 58.66
+Noanswer Accuracy Rate: 76.67
+Hasanswer Accuracy Rate: 74.09
+ACC Rate: 75.38
+Epoch 22, Step 17072:
+Rank@1, IoU_ans=0.3: 66.77	Rank@1, IoU_ans=0.5: 60.08	Rank@1, IoU_ans=0.7: 52.77	mean IoU_ans: 58.63
+Noanswer Accuracy Rate: 76.56
+Hasanswer Accuracy Rate: 73.98
+ACC Rate: 75.27
+Epoch 23, Step 17848:
+Rank@1, IoU_ans=0.3: 67.07	Rank@1, IoU_ans=0.5: 59.14	Rank@1, IoU_ans=0.7: 51.26	mean IoU_ans: 58.05
+Noanswer Accuracy Rate: 73.01
+Hasanswer Accuracy Rate: 78.49
+ACC Rate: 75.75
+Epoch 24, Step 18624:
+Rank@1, IoU_ans=0.3: 67.66	Rank@1, IoU_ans=0.5: 60.54	Rank@1, IoU_ans=0.7: 53.15	mean IoU_ans: 58.85
+Noanswer Accuracy Rate: 75.27
+Hasanswer Accuracy Rate: 75.65
+ACC Rate: 75.46
+Epoch 25, Step 19400:
+Rank@1, IoU_ans=0.3: 68.58	Rank@1, IoU_ans=0.5: 62.04	Rank@1, IoU_ans=0.7: 54.81	mean IoU_ans: 60.44
+Noanswer Accuracy Rate: 79.19
+Hasanswer Accuracy Rate: 73.28
+ACC Rate: 76.24
+Epoch 26, Step 20176:
+Rank@1, IoU_ans=0.3: 67.47	Rank@1, IoU_ans=0.5: 60.91	Rank@1, IoU_ans=0.7: 53.33	mean IoU_ans: 59.63
+Noanswer Accuracy Rate: 80.00
+Hasanswer Accuracy Rate: 69.84
+ACC Rate: 74.92
+Epoch 27, Step 20952:
+Rank@1, IoU_ans=0.3: 68.04	Rank@1, IoU_ans=0.5: 60.35	Rank@1, IoU_ans=0.7: 52.90	mean IoU_ans: 59.46
+Noanswer Accuracy Rate: 77.20
+Hasanswer Accuracy Rate: 76.56
+ACC Rate: 76.88
+Epoch 28, Step 21728:
+Rank@1, IoU_ans=0.3: 67.26	Rank@1, IoU_ans=0.5: 59.89	Rank@1, IoU_ans=0.7: 51.69	mean IoU_ans: 58.31
+Noanswer Accuracy Rate: 72.63
+Hasanswer Accuracy Rate: 79.57
+ACC Rate: 76.10
+Epoch 29, Step 22504:
+Rank@1, IoU_ans=0.3: 68.39	Rank@1, IoU_ans=0.5: 62.12	Rank@1, IoU_ans=0.7: 54.87	mean IoU_ans: 60.19
+Noanswer Accuracy Rate: 78.49
+Hasanswer Accuracy Rate: 73.82
+ACC Rate: 76.16
+Epoch 30, Step 23280:
+Rank@1, IoU_ans=0.3: 67.77	Rank@1, IoU_ans=0.5: 60.32	Rank@1, IoU_ans=0.7: 52.23	mean IoU_ans: 59.06
+Noanswer Accuracy Rate: 76.29
+Hasanswer Accuracy Rate: 75.27
+ACC Rate: 75.78
+Epoch 31, Step 24056:
+Rank@1, IoU_ans=0.3: 68.36	Rank@1, IoU_ans=0.5: 61.83	Rank@1, IoU_ans=0.7: 54.38	mean IoU_ans: 59.96
+Noanswer Accuracy Rate: 76.77
+Hasanswer Accuracy Rate: 76.56
+ACC Rate: 76.67
+Epoch 32, Step 24832:
+Rank@1, IoU_ans=0.3: 68.47	Rank@1, IoU_ans=0.5: 62.98	Rank@1, IoU_ans=0.7: 55.83	mean IoU_ans: 60.87
+Noanswer Accuracy Rate: 82.85
+Hasanswer Accuracy Rate: 68.06
+ACC Rate: 75.46
+Epoch 33, Step 25608:
+Rank@1, IoU_ans=0.3: 67.98	Rank@1, IoU_ans=0.5: 61.85	Rank@1, IoU_ans=0.7: 54.25	mean IoU_ans: 59.78
+Noanswer Accuracy Rate: 77.37
+Hasanswer Accuracy Rate: 74.95
+ACC Rate: 76.16
+Epoch 34, Step 26384:
+Rank@1, IoU_ans=0.3: 68.58	Rank@1, IoU_ans=0.5: 62.50	Rank@1, IoU_ans=0.7: 54.46	mean IoU_ans: 60.43
+Noanswer Accuracy Rate: 80.00
+Hasanswer Accuracy Rate: 71.99
+ACC Rate: 75.99
+Epoch 35, Step 27160:
+Rank@1, IoU_ans=0.3: 68.17	Rank@1, IoU_ans=0.5: 62.90	Rank@1, IoU_ans=0.7: 55.51	mean IoU_ans: 60.72
+Noanswer Accuracy Rate: 83.39
+Hasanswer Accuracy Rate: 67.10
+ACC Rate: 75.24
+Epoch 36, Step 27936:
+Rank@1, IoU_ans=0.3: 67.98	Rank@1, IoU_ans=0.5: 61.67	Rank@1, IoU_ans=0.7: 54.89	mean IoU_ans: 60.28
+Noanswer Accuracy Rate: 82.10
+Hasanswer Accuracy Rate: 69.09
+ACC Rate: 75.59
+Epoch 37, Step 28712:
+Rank@1, IoU_ans=0.3: 68.31	Rank@1, IoU_ans=0.5: 62.31	Rank@1, IoU_ans=0.7: 55.05	mean IoU_ans: 60.54
+Noanswer Accuracy Rate: 81.40
+Hasanswer Accuracy Rate: 70.81
+ACC Rate: 76.10
+Epoch 38, Step 29488:
+Rank@1, IoU_ans=0.3: 68.04	Rank@1, IoU_ans=0.5: 61.67	Rank@1, IoU_ans=0.7: 54.25	mean IoU_ans: 60.00
+Noanswer Accuracy Rate: 79.95
+Hasanswer Accuracy Rate: 71.83
+ACC Rate: 75.89
+Epoch 39, Step 30264:
+Rank@1, IoU_ans=0.3: 67.34	Rank@1, IoU_ans=0.5: 61.99	Rank@1, IoU_ans=0.7: 55.70	mean IoU_ans: 60.37
+Noanswer Accuracy Rate: 83.60
+Hasanswer Accuracy Rate: 64.25
+ACC Rate: 73.92
+Epoch 40, Step 31040:
+Rank@1, IoU_ans=0.3: 69.49	Rank@1, IoU_ans=0.5: 63.63	Rank@1, IoU_ans=0.7: 56.02	mean IoU_ans: 61.49
+Noanswer Accuracy Rate: 81.72
+Hasanswer Accuracy Rate: 72.04
+ACC Rate: 76.88
+Epoch 41, Step 31816:
+Rank@1, IoU_ans=0.3: 68.76	Rank@1, IoU_ans=0.5: 62.82	Rank@1, IoU_ans=0.7: 55.38	mean IoU_ans: 60.71
+Noanswer Accuracy Rate: 80.81
+Hasanswer Accuracy Rate: 72.04
+ACC Rate: 76.42
+Epoch 42, Step 32592:
+Rank@1, IoU_ans=0.3: 68.06	Rank@1, IoU_ans=0.5: 61.96	Rank@1, IoU_ans=0.7: 54.44	mean IoU_ans: 60.22
+Noanswer Accuracy Rate: 80.27
+Hasanswer Accuracy Rate: 71.72
+ACC Rate: 75.99
+Epoch 43, Step 33368:
+Rank@1, IoU_ans=0.3: 67.90	Rank@1, IoU_ans=0.5: 61.37	Rank@1, IoU_ans=0.7: 53.36	mean IoU_ans: 59.41
+Noanswer Accuracy Rate: 75.91
+Hasanswer Accuracy Rate: 76.40
+ACC Rate: 76.16
+Epoch 44, Step 34144:
+Rank@1, IoU_ans=0.3: 68.98	Rank@1, IoU_ans=0.5: 63.12	Rank@1, IoU_ans=0.7: 55.86	mean IoU_ans: 61.20
+Noanswer Accuracy Rate: 83.71
+Hasanswer Accuracy Rate: 67.63
+ACC Rate: 75.67
+Epoch 45, Step 34920:
+Rank@1, IoU_ans=0.3: 68.82	Rank@1, IoU_ans=0.5: 62.18	Rank@1, IoU_ans=0.7: 55.27	mean IoU_ans: 60.80
+Noanswer Accuracy Rate: 82.42
+Hasanswer Accuracy Rate: 70.00
+ACC Rate: 76.21
+Epoch 46, Step 35696:
+Rank@1, IoU_ans=0.3: 69.03	Rank@1, IoU_ans=0.5: 63.60	Rank@1, IoU_ans=0.7: 55.91	mean IoU_ans: 61.39
+Noanswer Accuracy Rate: 83.92
+Hasanswer Accuracy Rate: 68.49
+ACC Rate: 76.21
+Epoch 47, Step 36472:
+Rank@1, IoU_ans=0.3: 68.33	Rank@1, IoU_ans=0.5: 61.94	Rank@1, IoU_ans=0.7: 54.57	mean IoU_ans: 60.45
+Noanswer Accuracy Rate: 80.91
+Hasanswer Accuracy Rate: 72.10
+ACC Rate: 76.51
+Epoch 48, Step 37248:
+Rank@1, IoU_ans=0.3: 68.52	Rank@1, IoU_ans=0.5: 63.36	Rank@1, IoU_ans=0.7: 56.29	mean IoU_ans: 61.31
+Noanswer Accuracy Rate: 83.60
+Hasanswer Accuracy Rate: 67.53
+ACC Rate: 75.56
+Epoch 49, Step 38024:
+Rank@1, IoU_ans=0.3: 69.38	Rank@1, IoU_ans=0.5: 63.55	Rank@1, IoU_ans=0.7: 55.35	mean IoU_ans: 61.19
+Noanswer Accuracy Rate: 79.95
+Hasanswer Accuracy Rate: 73.66
+ACC Rate: 76.80
+Epoch 50, Step 38800:
+Rank@1, IoU_ans=0.3: 69.44	Rank@1, IoU_ans=0.5: 64.11	Rank@1, IoU_ans=0.7: 56.80	mean IoU_ans: 61.87
+Noanswer Accuracy Rate: 85.16
+Hasanswer Accuracy Rate: 66.56
+ACC Rate: 75.86
+Epoch 51, Step 39576:
+Rank@1, IoU_ans=0.3: 69.46	Rank@1, IoU_ans=0.5: 63.55	Rank@1, IoU_ans=0.7: 56.61	mean IoU_ans: 61.79
+Noanswer Accuracy Rate: 85.75
+Hasanswer Accuracy Rate: 66.29
+ACC Rate: 76.02
+Epoch 52, Step 40352:
+Rank@1, IoU_ans=0.3: 69.84	Rank@1, IoU_ans=0.5: 64.03	Rank@1, IoU_ans=0.7: 57.12	mean IoU_ans: 62.11
+Noanswer Accuracy Rate: 83.76
+Hasanswer Accuracy Rate: 69.68
+ACC Rate: 76.72
+Epoch 53, Step 41128:
+Rank@1, IoU_ans=0.3: 69.65	Rank@1, IoU_ans=0.5: 63.98	Rank@1, IoU_ans=0.7: 56.56	mean IoU_ans: 61.92
+Noanswer Accuracy Rate: 84.84
+Hasanswer Accuracy Rate: 67.69
+ACC Rate: 76.26
+Epoch 54, Step 41904:
+Rank@1, IoU_ans=0.3: 69.25	Rank@1, IoU_ans=0.5: 64.01	Rank@1, IoU_ans=0.7: 56.77	mean IoU_ans: 61.68
+Noanswer Accuracy Rate: 84.89
+Hasanswer Accuracy Rate: 65.81
+ACC Rate: 75.35
+Epoch 55, Step 42680:
+Rank@1, IoU_ans=0.3: 69.38	Rank@1, IoU_ans=0.5: 63.58	Rank@1, IoU_ans=0.7: 56.80	mean IoU_ans: 61.64
+Noanswer Accuracy Rate: 83.92
+Hasanswer Accuracy Rate: 67.10
+ACC Rate: 75.51
+Epoch 56, Step 43456:
+Rank@1, IoU_ans=0.3: 68.66	Rank@1, IoU_ans=0.5: 63.33	Rank@1, IoU_ans=0.7: 56.67	mean IoU_ans: 61.25
+Noanswer Accuracy Rate: 83.06
+Hasanswer Accuracy Rate: 68.60
+ACC Rate: 75.83
+Epoch 57, Step 44232:
+Rank@1, IoU_ans=0.3: 68.90	Rank@1, IoU_ans=0.5: 64.09	Rank@1, IoU_ans=0.7: 56.45	mean IoU_ans: 61.57
+Noanswer Accuracy Rate: 84.57
+Hasanswer Accuracy Rate: 66.40
+ACC Rate: 75.48
+Epoch 58, Step 45008:
+Rank@1, IoU_ans=0.3: 69.27	Rank@1, IoU_ans=0.5: 63.95	Rank@1, IoU_ans=0.7: 56.40	mean IoU_ans: 61.54
+Noanswer Accuracy Rate: 83.66
+Hasanswer Accuracy Rate: 67.69
+ACC Rate: 75.67
+Epoch 59, Step 45784:
+Rank@1, IoU_ans=0.3: 68.95	Rank@1, IoU_ans=0.5: 63.39	Rank@1, IoU_ans=0.7: 56.61	mean IoU_ans: 61.39
+Noanswer Accuracy Rate: 84.19
+Hasanswer Accuracy Rate: 65.97
+ACC Rate: 75.08
+Epoch 60, Step 46560:
+Rank@1, IoU_ans=0.3: 69.46	Rank@1, IoU_ans=0.5: 63.79	Rank@1, IoU_ans=0.7: 56.34	mean IoU_ans: 61.64
+Noanswer Accuracy Rate: 84.25
+Hasanswer Accuracy Rate: 67.04
+ACC Rate: 75.65
+Epoch 61, Step 47336:
+Rank@1, IoU_ans=0.3: 69.30	Rank@1, IoU_ans=0.5: 64.35	Rank@1, IoU_ans=0.7: 56.83	mean IoU_ans: 61.80
+Noanswer Accuracy Rate: 83.55
+Hasanswer Accuracy Rate: 68.55
+ACC Rate: 76.05
+Epoch 62, Step 48112:
+Rank@1, IoU_ans=0.3: 68.55	Rank@1, IoU_ans=0.5: 63.52	Rank@1, IoU_ans=0.7: 56.75	mean IoU_ans: 61.35
+Noanswer Accuracy Rate: 84.30
+Hasanswer Accuracy Rate: 66.51
+ACC Rate: 75.40
+Epoch 63, Step 48888:
+Rank@1, IoU_ans=0.3: 69.27	Rank@1, IoU_ans=0.5: 64.38	Rank@1, IoU_ans=0.7: 57.31	mean IoU_ans: 61.92
+Noanswer Accuracy Rate: 85.27
+Hasanswer Accuracy Rate: 65.86
+ACC Rate: 75.56
+Epoch 64, Step 49664:
+Rank@1, IoU_ans=0.3: 68.15	Rank@1, IoU_ans=0.5: 62.85	Rank@1, IoU_ans=0.7: 56.64	mean IoU_ans: 61.21
+Noanswer Accuracy Rate: 85.59
+Hasanswer Accuracy Rate: 64.52
+ACC Rate: 75.05
+Epoch 65, Step 50440:
+Rank@1, IoU_ans=0.3: 68.39	Rank@1, IoU_ans=0.5: 62.85	Rank@1, IoU_ans=0.7: 56.45	mean IoU_ans: 61.17
+Noanswer Accuracy Rate: 84.95
+Hasanswer Accuracy Rate: 64.62
+ACC Rate: 74.78
+Epoch 66, Step 51216:
+Rank@1, IoU_ans=0.3: 69.19	Rank@1, IoU_ans=0.5: 64.11	Rank@1, IoU_ans=0.7: 57.26	mean IoU_ans: 61.94
+Noanswer Accuracy Rate: 85.43
+Hasanswer Accuracy Rate: 65.38
+ACC Rate: 75.40
+Epoch 67, Step 51992:
+Rank@1, IoU_ans=0.3: 69.14	Rank@1, IoU_ans=0.5: 64.03	Rank@1, IoU_ans=0.7: 57.47	mean IoU_ans: 61.93
+Noanswer Accuracy Rate: 85.65
+Hasanswer Accuracy Rate: 65.22
+ACC Rate: 75.43
+Epoch 68, Step 52768:
+Rank@1, IoU_ans=0.3: 69.11	Rank@1, IoU_ans=0.5: 64.44	Rank@1, IoU_ans=0.7: 57.37	mean IoU_ans: 62.26
+Noanswer Accuracy Rate: 87.80
+Hasanswer Accuracy Rate: 61.88
+ACC Rate: 74.84
+Epoch 69, Step 53544:
+Rank@1, IoU_ans=0.3: 69.19	Rank@1, IoU_ans=0.5: 63.98	Rank@1, IoU_ans=0.7: 57.18	mean IoU_ans: 61.86
+Noanswer Accuracy Rate: 85.54
+Hasanswer Accuracy Rate: 65.22
+ACC Rate: 75.38
+Epoch 70, Step 54320:
+Rank@1, IoU_ans=0.3: 69.03	Rank@1, IoU_ans=0.5: 64.41	Rank@1, IoU_ans=0.7: 57.85	mean IoU_ans: 62.06
+Noanswer Accuracy Rate: 86.72
+Hasanswer Accuracy Rate: 62.69
+ACC Rate: 74.70
+Epoch 71, Step 55096:
+Rank@1, IoU_ans=0.3: 68.79	Rank@1, IoU_ans=0.5: 63.63	Rank@1, IoU_ans=0.7: 57.07	mean IoU_ans: 61.59
+Noanswer Accuracy Rate: 85.11
+Hasanswer Accuracy Rate: 65.05
+ACC Rate: 75.08
+Epoch 72, Step 55872:
+Rank@1, IoU_ans=0.3: 68.66	Rank@1, IoU_ans=0.5: 64.09	Rank@1, IoU_ans=0.7: 57.28	mean IoU_ans: 61.83
+Noanswer Accuracy Rate: 87.31
+Hasanswer Accuracy Rate: 61.34
+ACC Rate: 74.33
+Epoch 73, Step 56648:
+Rank@1, IoU_ans=0.3: 69.06	Rank@1, IoU_ans=0.5: 63.92	Rank@1, IoU_ans=0.7: 57.47	mean IoU_ans: 61.84
+Noanswer Accuracy Rate: 85.48
+Hasanswer Accuracy Rate: 65.11
+ACC Rate: 75.30
+Epoch 74, Step 57424:
+Rank@1, IoU_ans=0.3: 67.93	Rank@1, IoU_ans=0.5: 63.55	Rank@1, IoU_ans=0.7: 57.45	mean IoU_ans: 61.48
+Noanswer Accuracy Rate: 86.94
+Hasanswer Accuracy Rate: 61.45
+ACC Rate: 74.19
+Epoch 75, Step 58200:
+Rank@1, IoU_ans=0.3: 68.60	Rank@1, IoU_ans=0.5: 63.74	Rank@1, IoU_ans=0.7: 57.10	mean IoU_ans: 61.75
+Noanswer Accuracy Rate: 86.13
+Hasanswer Accuracy Rate: 63.17
+ACC Rate: 74.65
+Epoch 76, Step 58976:
+Rank@1, IoU_ans=0.3: 68.12	Rank@1, IoU_ans=0.5: 63.90	Rank@1, IoU_ans=0.7: 56.91	mean IoU_ans: 61.44
+Noanswer Accuracy Rate: 85.48
+Hasanswer Accuracy Rate: 63.71
+ACC Rate: 74.60
+Epoch 77, Step 59752:
+Rank@1, IoU_ans=0.3: 68.44	Rank@1, IoU_ans=0.5: 63.39	Rank@1, IoU_ans=0.7: 56.64	mean IoU_ans: 61.24
+Noanswer Accuracy Rate: 84.57
+Hasanswer Accuracy Rate: 65.22
+ACC Rate: 74.89
+Epoch 78, Step 60528:
+Rank@1, IoU_ans=0.3: 68.76	Rank@1, IoU_ans=0.5: 64.25	Rank@1, IoU_ans=0.7: 57.34	mean IoU_ans: 61.76
+Noanswer Accuracy Rate: 86.34
+Hasanswer Accuracy Rate: 62.90
+ACC Rate: 74.62
+Epoch 79, Step 61304:
+Rank@1, IoU_ans=0.3: 68.60	Rank@1, IoU_ans=0.5: 63.47	Rank@1, IoU_ans=0.7: 56.99	mean IoU_ans: 61.50
+Noanswer Accuracy Rate: 85.75
+Hasanswer Accuracy Rate: 63.71
+ACC Rate: 74.73
+Epoch 80, Step 62080:
+Rank@1, IoU_ans=0.3: 68.15	Rank@1, IoU_ans=0.5: 63.87	Rank@1, IoU_ans=0.7: 57.37	mean IoU_ans: 61.53
+Noanswer Accuracy Rate: 87.69
+Hasanswer Accuracy Rate: 60.48
+ACC Rate: 74.09
+Epoch 81, Step 62856:
+Rank@1, IoU_ans=0.3: 68.82	Rank@1, IoU_ans=0.5: 64.41	Rank@1, IoU_ans=0.7: 57.28	mean IoU_ans: 61.87
+Noanswer Accuracy Rate: 87.31
+Hasanswer Accuracy Rate: 61.34
+ACC Rate: 74.33
+Epoch 82, Step 63632:
+Rank@1, IoU_ans=0.3: 68.90	Rank@1, IoU_ans=0.5: 64.70	Rank@1, IoU_ans=0.7: 57.93	mean IoU_ans: 62.22
+Noanswer Accuracy Rate: 87.42
+Hasanswer Accuracy Rate: 62.04
+ACC Rate: 74.73
+Epoch 83, Step 64408:
+Rank@1, IoU_ans=0.3: 67.96	Rank@1, IoU_ans=0.5: 63.60	Rank@1, IoU_ans=0.7: 57.63	mean IoU_ans: 61.47
+Noanswer Accuracy Rate: 88.06
+Hasanswer Accuracy Rate: 59.41
+ACC Rate: 73.74
+Epoch 84, Step 65184:
+Rank@1, IoU_ans=0.3: 69.35	Rank@1, IoU_ans=0.5: 64.81	Rank@1, IoU_ans=0.7: 58.20	mean IoU_ans: 62.45
+Noanswer Accuracy Rate: 87.90
+Hasanswer Accuracy Rate: 62.47
+ACC Rate: 75.19
+Epoch 85, Step 65960:
+Rank@1, IoU_ans=0.3: 68.49	Rank@1, IoU_ans=0.5: 64.84	Rank@1, IoU_ans=0.7: 58.06	mean IoU_ans: 62.15
+Noanswer Accuracy Rate: 88.98
+Hasanswer Accuracy Rate: 59.19
+ACC Rate: 74.09
+Epoch 86, Step 66736:
+Rank@1, IoU_ans=0.3: 68.82	Rank@1, IoU_ans=0.5: 64.76	Rank@1, IoU_ans=0.7: 57.85	mean IoU_ans: 62.03
+Noanswer Accuracy Rate: 87.15
+Hasanswer Accuracy Rate: 62.10
+ACC Rate: 74.62
+Epoch 87, Step 67512:
+Rank@1, IoU_ans=0.3: 69.06	Rank@1, IoU_ans=0.5: 64.87	Rank@1, IoU_ans=0.7: 57.88	mean IoU_ans: 62.16
+Noanswer Accuracy Rate: 87.26
+Hasanswer Accuracy Rate: 61.77
+ACC Rate: 74.52
+Epoch 88, Step 68288:
+Rank@1, IoU_ans=0.3: 68.58	Rank@1, IoU_ans=0.5: 64.73	Rank@1, IoU_ans=0.7: 57.85	mean IoU_ans: 62.08
+Noanswer Accuracy Rate: 87.85
+Hasanswer Accuracy Rate: 60.86
+ACC Rate: 74.35
+Epoch 89, Step 69064:
+Rank@1, IoU_ans=0.3: 68.36	Rank@1, IoU_ans=0.5: 64.35	Rank@1, IoU_ans=0.7: 58.15	mean IoU_ans: 61.92
+Noanswer Accuracy Rate: 88.33
+Hasanswer Accuracy Rate: 59.41
+ACC Rate: 73.87
+Epoch 90, Step 69840:
+Rank@1, IoU_ans=0.3: 68.55	Rank@1, IoU_ans=0.5: 64.49	Rank@1, IoU_ans=0.7: 58.23	mean IoU_ans: 62.13
+Noanswer Accuracy Rate: 89.35
+Hasanswer Accuracy Rate: 57.58
+ACC Rate: 73.47
+Epoch 91, Step 70616:
+Rank@1, IoU_ans=0.3: 68.04	Rank@1, IoU_ans=0.5: 64.52	Rank@1, IoU_ans=0.7: 58.06	mean IoU_ans: 61.99
+Noanswer Accuracy Rate: 88.76
+Hasanswer Accuracy Rate: 58.17
+ACC Rate: 73.47
+Epoch 92, Step 71392:
+Rank@1, IoU_ans=0.3: 68.39	Rank@1, IoU_ans=0.5: 64.44	Rank@1, IoU_ans=0.7: 58.36	mean IoU_ans: 61.97
+Noanswer Accuracy Rate: 88.49
+Hasanswer Accuracy Rate: 59.19
+ACC Rate: 73.84
+Epoch 93, Step 72168:
+Rank@1, IoU_ans=0.3: 68.63	Rank@1, IoU_ans=0.5: 64.70	Rank@1, IoU_ans=0.7: 57.61	mean IoU_ans: 61.98
+Noanswer Accuracy Rate: 88.01
+Hasanswer Accuracy Rate: 60.38
+ACC Rate: 74.19
+Epoch 94, Step 72944:
+Rank@1, IoU_ans=0.3: 68.23	Rank@1, IoU_ans=0.5: 64.44	Rank@1, IoU_ans=0.7: 58.66	mean IoU_ans: 62.09
+Noanswer Accuracy Rate: 89.09
+Hasanswer Accuracy Rate: 58.55
+ACC Rate: 73.82
+Epoch 95, Step 73720:
+Rank@1, IoU_ans=0.3: 68.20	Rank@1, IoU_ans=0.5: 64.06	Rank@1, IoU_ans=0.7: 58.01	mean IoU_ans: 61.86
+Noanswer Accuracy Rate: 88.17
+Hasanswer Accuracy Rate: 59.95
+ACC Rate: 74.06
+Epoch 96, Step 74496:
+Rank@1, IoU_ans=0.3: 67.98	Rank@1, IoU_ans=0.5: 63.90	Rank@1, IoU_ans=0.7: 57.96	mean IoU_ans: 61.68
+Noanswer Accuracy Rate: 88.28
+Hasanswer Accuracy Rate: 58.71
+ACC Rate: 73.49
+Epoch 97, Step 75272:
+Rank@1, IoU_ans=0.3: 68.12	Rank@1, IoU_ans=0.5: 64.33	Rank@1, IoU_ans=0.7: 58.39	mean IoU_ans: 61.93
+Noanswer Accuracy Rate: 89.14
+Hasanswer Accuracy Rate: 58.01
+ACC Rate: 73.58
+Epoch 98, Step 76048:
+Rank@1, IoU_ans=0.3: 67.93	Rank@1, IoU_ans=0.5: 64.03	Rank@1, IoU_ans=0.7: 58.01	mean IoU_ans: 61.71
+Noanswer Accuracy Rate: 89.35
+Hasanswer Accuracy Rate: 56.56
+ACC Rate: 72.96
+Epoch 99, Step 76824:
+Rank@1, IoU_ans=0.3: 68.12	Rank@1, IoU_ans=0.5: 64.44	Rank@1, IoU_ans=0.7: 58.20	mean IoU_ans: 61.94
+Noanswer Accuracy Rate: 88.82
+Hasanswer Accuracy Rate: 58.33
+ACC Rate: 73.58
+Epoch 100, Step 77600:
+Rank@1, IoU_ans=0.3: 67.82	Rank@1, IoU_ans=0.5: 64.09	Rank@1, IoU_ans=0.7: 58.06	mean IoU_ans: 61.74
+Noanswer Accuracy Rate: 88.98
+Hasanswer Accuracy Rate: 57.47
+ACC Rate: 73.23
