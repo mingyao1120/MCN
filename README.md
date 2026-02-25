@@ -118,6 +118,8 @@ We release pretrained checkpoints. Download and put them into `./ckpt/`:
 - MCN on Charades-STA-RF: `MCN_charades_RF_i3d_128`
 - MCN on ActivityNet Captions-RF: `MCN_activitynet_RF_i3d_128`
 
+In addition, we provide a utility class for calculating query similarity (i.e., negative sample difficulty), see util/negative_analyzer.py.
+
 ---
 
 ## Framework Architecture
