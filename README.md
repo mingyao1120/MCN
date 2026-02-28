@@ -169,8 +169,7 @@ Total Loss = CE_Loss + γ × BCE_Loss + β × BF_Loss + α × IoU_Loss + λ × C
 This implementation is based on insights from the following works:
 
 - [RaTSG](https://github.com/HuiGuanLab/RaTSG) - Ranking-based Temporal Sentence Grounding with Relevance Feedback
-- [VSLNet](https://github.com/tencent-ailab/VSLNet) - Video Structured Localization Network
-- [2D-TAN](https://github.com/tttony2622/2D-TAN) - 2D Temporal Adjacency Network
+
 
 We thank the original authors for their valuable contributions to the field.
 
